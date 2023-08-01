@@ -1,0 +1,207 @@
+.homepage {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: -3;
+  margin-top: -180px;
+}
+
+section {
+  position: relative;
+  height: 150vh;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 30px;
+}
+
+.content {
+  width: fit-content;
+  height: fit-content;
+  position: sticky;
+  left: 200px;
+  margin: 0;
+}
+
+p {
+  font-family: "Darker Grotesque";
+  font-weight: 500;
+}
+
+.span-2 {
+  transform: translateX(10vw);
+  font-size: 60px;
+  font-family: "Sacramento";
+  -webkit-text-stroke-width: 1px;
+}
+
+.first {
+  background-image: url("/CatSweaters/alex-perri.jpg");
+  background-position: 100%;
+}
+
+.first .content {
+  top: 20%;
+}
+
+.first p {
+  display: flex;
+  flex-direction: column;
+}
+
+.first .copy {
+  margin-right: 17%;
+}
+
+.second {
+  background-image: url("/CatSweaters/cedric-vt.jpg");
+  background-position: 80%;
+}
+
+.second .content {
+  top: 15%;
+}
+
+.second p {
+  width: 400px;
+  text-align: end;
+  font-size: 40px;
+}
+
+.second .copy {
+  margin-right: 15vw;
+}
+
+.third {
+  background-image: url("/CatSweaters/alessia-marusova.jpg");
+}
+
+.third .content {
+  top: 12%;
+  left: 0;
+}
+
+.third p {
+  margin-left: 20px;
+  width: 200px;
+  font-size: 40px;
+}
+
+.third .copy {
+  margin-right: 10vw;
+}
+
+.fourth {
+  background-image: url("/CatSweaters/zoe-gayah-jonker.jpg");
+}
+
+.fourth .content {
+  top: 15%;
+  left: 20vw;
+}
+
+.fourth p {
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+.fourth .copy {
+  margin-right: 10vw;
+}
+
+.fifth {
+  background-image: url("/CatSweaters/david-suarez.jpg");
+}
+
+.fifth .content {
+  top: 12%;
+  left: 0;
+}
+
+.fifth p {
+  margin-left: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.fifth .copy {
+  margin-right: 10vw;
+}
+
+.sixth {
+  background-image: url("/CatSweaters/elizeu-dias.jpg");
+}
+
+.sixth .content {
+  top: 8%;
+  left: 0;
+}
+
+.sixth p {
+  font-size: 40px;
+  text-align: end;
+}
+
+.sixth .copy {
+  margin-right: 10vw;
+}
+
+.seventh {
+  background-image: url("/CatSweaters/hang-niu.jpg");
+
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 20vh;
+}
+
+.seventh .content {
+  top: 8%;
+  left: 0;
+}
+
+.seventh p {
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+}
+
+.seventh .copy {
+  margin-right: 10vw;
+  width: 100%;
+}
+
+.color-div {
+  width: 100%;
+  height: 80vh;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 50px;
+}
+
+.cd-top {
+  height: 200px;
+  width: 100%;
+  background-color: #000;
+  transform: translateY(-95%);
+}
+
+.cd-bottom {
+  position: static;
+  height: 200px;
+  width: 100%;
+  background-color: #000;
+  transform: translateY(95%);
+  z-index: 90;
+}
+
+.color-div p {
+  width: 90%;
+  color: #fff;
+  text-align: center;
+}
