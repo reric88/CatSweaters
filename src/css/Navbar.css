@@ -14,10 +14,10 @@
   z-index: 99;}
 
 .navbar .fa-solid {
-  font-size: 20px;
-  width: 20px;
-  height: 20px;
-  margin: 20px ;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  margin: 30px ;
 }
 
 .fa-chart-simple {
@@ -127,30 +127,28 @@ color: transparent;
   position: sticky;
   background-color: #fff;
   width: 100%;
-  /* height: 10rem; */
+  height: 36px;
   display: flex;
   justify-content: space-evenly;
-  /* border: 2px solid red; */
   z-index: 98;
   margin-top: 0;
-  top: 60px;
-  
+  top: 60px;  
   font-family: 'Darker Grotesque', monospace;
 
 }
 
 .menu-title-div {
   /* background-color: green; */
-  height: 24px;
+  height: 36px;
 }
 
 .menu-title {
   color: #000;
-  font-size: 16px;
-  border: 1px solid red;
+  font-size: 30px;
+  /* border: 1px solid red; */
   width: fit-content;
   /* margin-bottom: 8px; */
-  height: 16px;
+  height: 30px;
   cursor: pointer;
 }
 
